@@ -1,0 +1,13 @@
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.csprojAssemblyReference.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.AssemblyInfoInputs.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.AssemblyInfo.cs
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Services.deps.json
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Services.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Services.pdb
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Core.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Data.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Core.pdb
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\bin\Debug\netstandard2.0\Sell.Data.pdb
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.csproj.CopyComplete
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Services\obj\Debug\netstandard2.0\Sell.Services.pdb

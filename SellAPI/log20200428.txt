@@ -1,0 +1,82 @@
+2020-04-28 01:49:42.512 +04:30 [INF] Start installing Hangfire SQL objects...
+2020-04-28 01:49:43.103 +04:30 [INF] Hangfire SQL objects installed.
+2020-04-28 01:49:43.201 +04:30 [INF] User profile is available. Using 'C:\Users\AliHF\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-04-28 01:49:43.238 +04:30 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HangfireSell'
+2020-04-28 01:49:43.240 +04:30 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2020-04-28 01:49:43.241 +04:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-04-28 01:49:43.426 +04:30 [INF] Starting Hangfire Server using job storage: 'SQL Server: .@HangfireSell'
+2020-04-28 01:49:43.427 +04:30 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2020-04-28 01:49:43.428 +04:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:01
+2020-04-28 01:49:43.666 +04:30 [INF] Server desktop-al52q8t:22020:00e74e06 successfully announced in 228/6567 ms
+2020-04-28 01:49:43.666 +04:30 [INF] Server desktop-al52q8t:22020:5125ce69 successfully announced in 390/75440000000003 ms
+2020-04-28 01:49:43.684 +04:30 [INF] Server desktop-al52q8t:22020:00e74e06 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-04-28 01:49:43.684 +04:30 [INF] Server desktop-al52q8t:22020:5125ce69 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-04-28 01:49:43.777 +04:30 [INF] 2 servers were removed due to timeout
+2020-04-28 01:49:44.176 +04:30 [INF] Server desktop-al52q8t:22020:00e74e06 all the dispatchers started
+2020-04-28 01:49:44.226 +04:30 [INF] Server desktop-al52q8t:22020:5125ce69 all the dispatchers started
+2020-04-28 01:49:45.691 +04:30 [INF] Now listening on: https://localhost:5001
+2020-04-28 01:49:45.692 +04:30 [INF] Now listening on: http://localhost:5000
+2020-04-28 01:49:45.694 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2020-04-28 01:49:45.695 +04:30 [INF] Hosting environment: Development
+2020-04-28 01:49:45.698 +04:30 [INF] Content root path: F:\My Appliction\WebAPI\SellAPI\SellAPI
+2020-04-28 01:49:46.813 +04:30 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-04-28 01:49:47.555 +04:30 [INF] Request finished in 743.8675000000001ms 404 
+2020-04-28 01:49:47.764 +04:30 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-04-28 01:49:47.767 +04:30 [INF] Request finished in 3.1261ms 0 
+2020-04-28 01:50:18.642 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Category/  
+2020-04-28 01:50:18.651 +04:30 [INF] Executing endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:18.686 +04:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SellAPI.Controllers.CategoryController (SellAPI).
+2020-04-28 01:50:18.780 +04:30 [INF] Executing action method SellAPI.Controllers.CategoryController.GetAll (SellAPI) - Validation state: "Valid"
+2020-04-28 01:50:20.121 +04:30 [INF] Entity Framework Core 3.1.2 initialized 'SQLServerApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=16 
+2020-04-28 01:50:21.361 +04:30 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[Description], [c].[CreateOn], [c].[UpdateOn]
+FROM [Category] AS [c]
+2020-04-28 01:50:21.610 +04:30 [INF] Executed action method SellAPI.Controllers.CategoryController.GetAll (SellAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2795.7078ms.
+2020-04-28 01:50:21.619 +04:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sell.Services.DTOs.Category.CategoryItemDTO, Sell.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-04-28 01:50:21.660 +04:30 [INF] Executed action SellAPI.Controllers.CategoryController.GetAll (SellAPI) in 2963.9065ms
+2020-04-28 01:50:21.664 +04:30 [INF] Executed endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:21.674 +04:30 [INF] Request finished in 3032.2661000000003ms 200 application/json; charset=utf-8
+2020-04-28 01:50:30.270 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Category/  
+2020-04-28 01:50:30.273 +04:30 [INF] Executing endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:30.274 +04:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SellAPI.Controllers.CategoryController (SellAPI).
+2020-04-28 01:50:30.327 +04:30 [INF] Executing action method SellAPI.Controllers.CategoryController.GetAll (SellAPI) - Validation state: "Valid"
+2020-04-28 01:50:30.361 +04:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[Description], [c].[CreateOn], [c].[UpdateOn]
+FROM [Category] AS [c]
+2020-04-28 01:50:30.368 +04:30 [INF] Executed action method SellAPI.Controllers.CategoryController.GetAll (SellAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.056800000000003ms.
+2020-04-28 01:50:30.371 +04:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sell.Services.DTOs.Category.CategoryItemDTO, Sell.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-04-28 01:50:30.375 +04:30 [INF] Executed action SellAPI.Controllers.CategoryController.GetAll (SellAPI) in 85.3848ms
+2020-04-28 01:50:30.378 +04:30 [INF] Executed endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:30.392 +04:30 [INF] Request finished in 122.0159ms 200 application/json; charset=utf-8
+2020-04-28 01:50:32.145 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Category/  
+2020-04-28 01:50:32.169 +04:30 [INF] Executing endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:32.194 +04:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SellAPI.Controllers.CategoryController (SellAPI).
+2020-04-28 01:50:32.274 +04:30 [INF] Executing action method SellAPI.Controllers.CategoryController.GetAll (SellAPI) - Validation state: "Valid"
+2020-04-28 01:50:32.337 +04:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[Description], [c].[CreateOn], [c].[UpdateOn]
+FROM [Category] AS [c]
+2020-04-28 01:50:32.342 +04:30 [INF] Executed action method SellAPI.Controllers.CategoryController.GetAll (SellAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41.1986ms.
+2020-04-28 01:50:32.344 +04:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sell.Services.DTOs.Category.CategoryItemDTO, Sell.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-04-28 01:50:32.348 +04:30 [INF] Executed action SellAPI.Controllers.CategoryController.GetAll (SellAPI) in 137.2672ms
+2020-04-28 01:50:32.351 +04:30 [INF] Executed endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:32.355 +04:30 [INF] Request finished in 219.02880000000002ms 200 application/json; charset=utf-8
+2020-04-28 01:50:47.925 +04:30 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Category/  
+2020-04-28 01:50:47.938 +04:30 [INF] Executing endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:50:47.969 +04:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller SellAPI.Controllers.CategoryController (SellAPI).
+2020-04-28 01:52:17.898 +04:30 [INF] Executing action method SellAPI.Controllers.CategoryController.GetAll (SellAPI) - Validation state: "Valid"
+2020-04-28 01:52:18.129 +04:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[Description], [c].[CreateOn], [c].[UpdateOn]
+FROM [Category] AS [c]
+2020-04-28 01:52:18.136 +04:30 [INF] Executed action method SellAPI.Controllers.CategoryController.GetAll (SellAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 215.5121ms.
+2020-04-28 01:52:18.140 +04:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sell.Services.DTOs.Category.CategoryItemDTO, Sell.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-04-28 01:52:18.145 +04:30 [INF] Executed action SellAPI.Controllers.CategoryController.GetAll (SellAPI) in 90150.61170000001ms
+2020-04-28 01:52:18.153 +04:30 [INF] Executed endpoint 'SellAPI.Controllers.CategoryController.GetAll (SellAPI)'
+2020-04-28 01:52:18.158 +04:30 [INF] Request finished in 90233.7608ms 200 application/json; charset=utf-8

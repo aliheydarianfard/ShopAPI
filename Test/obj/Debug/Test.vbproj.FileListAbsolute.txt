@@ -1,0 +1,4 @@
+C:\Users\AliHF\Source\Repos\SellAPI\Test\obj\Debug\Test.vbprojAssemblyReference.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Test\obj\Debug\Test.Form1.resources
+C:\Users\AliHF\Source\Repos\SellAPI\Test\obj\Debug\Test.Resources.resources
+C:\Users\AliHF\Source\Repos\SellAPI\Test\obj\Debug\Test.vbproj.GenerateResource.cache

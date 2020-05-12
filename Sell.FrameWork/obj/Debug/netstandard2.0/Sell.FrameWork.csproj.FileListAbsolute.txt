@@ -1,0 +1,7 @@
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\bin\Debug\netstandard2.0\Properties\launchSettings.json
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\bin\Debug\netstandard2.0\Sell.FrameWork.deps.json
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\bin\Debug\netstandard2.0\Sell.FrameWork.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\obj\Debug\netstandard2.0\Sell.FrameWork.csprojAssemblyReference.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\obj\Debug\netstandard2.0\Sell.FrameWork.AssemblyInfoInputs.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\obj\Debug\netstandard2.0\Sell.FrameWork.AssemblyInfo.cs
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.FrameWork\bin\Debug\netstandard2.0\Sell.Core.dll

@@ -1,0 +1,8 @@
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\bin\Debug\netcoreapp3.0\Sell.Core.deps.json
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\bin\Debug\netcoreapp3.0\Sell.Core.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\bin\Debug\netcoreapp3.0\Sell.Core.pdb
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\obj\Debug\netcoreapp3.0\Sell.Core.csprojAssemblyReference.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\obj\Debug\netcoreapp3.0\Sell.Core.AssemblyInfoInputs.cache
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\obj\Debug\netcoreapp3.0\Sell.Core.AssemblyInfo.cs
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\obj\Debug\netcoreapp3.0\Sell.Core.dll
+C:\Users\AliHF\Source\Repos\SellAPI\Sell.Core\obj\Debug\netcoreapp3.0\Sell.Core.pdb
